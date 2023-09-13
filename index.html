@@ -1,20 +1,76 @@
-<!DoctypeHTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Esports at Allen High</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-
+      * {
+        box-sizing: border-box;
+      }
+      header {
+        background-color:yellow;
+        color: white;
+      }
+      nav {
+        float: left;
+        width: 30%;
+        background-color: blue;
+        padding: 20px;        
+      }
+        
       body {
         background-color: lightblue;
       }
       h2 {
         text-align: center;
       }  
-        
-    </style>
+      h5 {
+        text-align: center;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: white;
+      }
+      footer {
+        background-color: green;
+        color: white;
+        text-align: center;
+      }
+      @media (max-width: 600px) {
+        nav, article {
+          width: 100%;
+          height: auto;
+          }
+        }
+  </style>
   </head>
     <body>
-<h2>Esports Club for Allen High School</h2>
-      <h5>Allen, TX</h5>
+      <header>
+        <h2>Esports Club for Allen High School</h2>
+        <h5>Allen, TX</h5>
+      </header>
+<section>
+  <nav>
+    <ul>
+      <li> <a href="#">Games<a/></li>
+      <li> <a href="#">Events<a/></li>
+      <li> <a href="#">Gameplay Clips<a/></li>
+      <li> <a href="#">About Us<a/></li>
+    </ul>
+  </nav>
+        <article>
+          <h1>Main Content Area</h1>
+          <p>here is another paragraph</p>
+          <p>this is a paragraph of information</p>
+        </article>
+</section>
+      <footer>Here is the Footer</footer>
     </body>
 </html>
